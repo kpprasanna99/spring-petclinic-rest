@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
        name: artifact for download
-       path: /home/runner/work/spring-petclinic-rest/spring-petclinic-rest/target/
+       path: /home/runner/work/spring-petclinic-rest/spring-petclinic-rest/target/spring-petclinic-rest-2.4.2.jar
