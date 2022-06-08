@@ -22,9 +22,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
 jobs:
-  Gnreate Artifact:
-
-    runs-on: ubuntu-latest
+  - Genreate Artifact:
 
     steps:
      - uses: actions/upload-artifact@v2
