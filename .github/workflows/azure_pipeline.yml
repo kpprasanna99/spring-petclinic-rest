@@ -22,6 +22,7 @@ jobs:
       run: mvn -B package --file pom.xml
       
   jobs:
+   name: Artifact
   
    runs-on: ubuntu-latest
    steps:
