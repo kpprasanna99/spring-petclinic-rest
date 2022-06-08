@@ -20,8 +20,14 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Artifact Upload
-      uses: actions/upload-artifact@v2
+
+jobs:
+  Gnreate Artifact:
+
+    runs-on: ubuntu-latest
+
+    steps:
+     - uses: actions/upload-artifact@v2
       with:
-       name: artifact for download
+       name: artifact 
        path: /home/runner/work/spring-petclinic-rest/spring-petclinic-rest/target/spring-petclinic-rest-2.4.2.jar
